@@ -16,46 +16,22 @@ Super-Voice-Assistant is a full-stack web application that creates a customizabl
 
 ### Backend 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/hounfodji/Super-Voice-Assistant.git
-   cd Super-Voice-Assistant
    ```
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+2. pip install -r requirements.txt
    ```
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
+4. set up GEMINI_API_KEY=your_api_key_here
    ```
-4. Set up your environment variables:
-   Create a `.env` file in the root directory and add your AI API key:
-   Get Gemini API key [here](https://aistudio.google.com/app/apikey)
+5. python manage.py migrate
    ```
-   GEMINI_API_KEY=your_api_key_here
-   ```
-5. Run migrations:
-   ```bash
-   python manage.py migrate
-   ```
-6. Start the Django development server:
-   ```bash
-   python manage.py runserver
+6. python manage.py runserver
    ```
 ### Frontend (React)
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install the required npm packages:
-   ```bash
-   npm install
-   ```
-3. Start the React development server:
-   ```bash
-   npm run dev
-   ```
+1. cd frontend
+   
+2. npm install
+   
+3.npm run dev
+  
 ## Usage
 1. Open your web browser and go to `http://localhost:5173` to access the React frontend.
 2. Click the "Start Recording" button to begin recording your voice.
@@ -63,47 +39,6 @@ Super-Voice-Assistant is a full-stack web application that creates a customizabl
 4. Click "Stop Recording" when you're done speaking.
 5. The application will process your audio, convert it to text, send it to the AI for processing, and display the response.
 6. The AI's response will be displayed in the chat interface and spoken aloud.
-## API Endpoints
-- `POST /api/record/`: Accepts audio recordings and returns the transcribed text.
-- `POST /api/process/`: Accepts text input and returns the AI-generated response.
 
-## Future Features
-We are constantly working to improve Super-Voice-Assistant. Here are some features we are planning to implement:
-
-- [ ] Store messages in a PostgreSQL database for conversation history
-- [ ] Add option to stop AI from speaking mid-response
-- [ ] Implement functionality to upload audio files for processing
-- [ ] Redesign the interface for a more beautiful and intuitive user experience
-- [ ] Multi-language support for both speech recognition and AI responses
-- [ ] User authentication and personal conversation history
-- [ ] Customizable AI personalities or specialized knowledge domains
-- [ ] Integration with external services (e.g., weather, news, calendar)
-- [ ] Voice activity detection to automatically start/stop recording
-- [ ] Sentiment analysis of user inputs for more empathetic AI responses
-- [ ] Exportable conversation transcripts
-- [ ] Mobile app version for iOS and Android
-- [ ] Offline mode with basic functionality when internet is unavailable
-
-We welcome contributions to help implement these features! Check our [Contributing](#contributing) section to get started.
-
-## Contributing
-Contributions to the Super-Voice-Assistant project are welcome. Please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
-## License
-This project uses the following license: [MIT License](https://opensource.org/licenses/MIT).
-## Contact
-If you want to contact me, you can reach me at <hospicehounfodjil@gmail.com>.
-## Acknowledgements
-- [Django](https://www.djangoproject.com/)
-- [Django REST Framework](https://www.django-rest-framework.org/)
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Axios](https://axios-http.com/)
-- [Google Generative AI](https://ai.google.dev/)
 
 
