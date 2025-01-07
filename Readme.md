@@ -4,7 +4,7 @@ Super-Voice-Assistant is a full-stack web application that creates a customizabl
 
 ## Demo
 ![Super-Voice-Assistant Demo](https://github.com/hounfodji/Super-Voice-Assistant/blob/master/z_demo/demo.png)
-*Caption: Super-Voice-Assistant in action, showing the voice recording interface and AI response.*
+
 
 
 ## Features
