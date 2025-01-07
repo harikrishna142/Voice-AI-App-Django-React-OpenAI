@@ -16,14 +16,16 @@ Super-Voice-Assistant is a full-stack web application that creates a customizabl
 
 ### Backend 
 1. Clone the repository:
-   ```
-2. pip install -r requirements.txt
-   ```
+   
+3. pip install -r requirements.txt
+   
 4. set up GEMINI_API_KEY=your_api_key_here
-   ```
+   
 5. python manage.py migrate
-   ```
-6. python manage.py runserver
+
+
+6. 
+   python manage.py runserver
    ```
 ### Frontend (React)
 1. cd frontend
