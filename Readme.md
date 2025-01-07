@@ -1,6 +1,7 @@
-# Super-Voice-Assistant
+# An AI Assistant with chat, voice capabilties using state of the art LLM, STT, TTS functionalities
 ## Description
-Super-Voice-Assistant is a full-stack web application that creates a customizable voice assistant. It combines a Django backend with a React frontend, allowing users to interact with an AI-powered assistant through audio recordings. The application leverages the power of a chosen AI solution (e.g., Gemini or others) to foster engaging conversational experiences.
+ A full-stack web application developed with django as backend, react native as frontend with tailswind css. The Assiatnt integrated with LLM suchas Open AI, Gemini, Claude, And for sppech to text deepgrams nova-2 modle is used, and elevenlabs API for text to speech.
+
 
 ## Demo
 ![Super-Voice-Assistant Demo](https://github.com/hounfodji/Super-Voice-Assistant/blob/master/z_demo/demo.png)
@@ -71,44 +72,3 @@ Before you begin, ensure you have met the following requirements:
 ## API Endpoints
 - `POST /api/record/`: Accepts audio recordings and returns the transcribed text.
 - `POST /api/process/`: Accepts text input and returns the AI-generated response.
-
-## Future Features
-We are constantly working to improve Super-Voice-Assistant. Here are some features we are planning to implement:
-
-- [ ] Store messages in a PostgreSQL database for conversation history
-- [ ] Add option to stop AI from speaking mid-response
-- [ ] Implement functionality to upload audio files for processing
-- [ ] Redesign the interface for a more beautiful and intuitive user experience
-- [ ] Multi-language support for both speech recognition and AI responses
-- [ ] User authentication and personal conversation history
-- [ ] Customizable AI personalities or specialized knowledge domains
-- [ ] Integration with external services (e.g., weather, news, calendar)
-- [ ] Voice activity detection to automatically start/stop recording
-- [ ] Sentiment analysis of user inputs for more empathetic AI responses
-- [ ] Exportable conversation transcripts
-- [ ] Mobile app version for iOS and Android
-- [ ] Offline mode with basic functionality when internet is unavailable
-
-We welcome contributions to help implement these features! Check our [Contributing](#contributing) section to get started.
-
-## Contributing
-Contributions to the Super-Voice-Assistant project are welcome. Please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
-## License
-This project uses the following license: [MIT License](https://opensource.org/licenses/MIT).
-## Contact
-If you want to contact me, you can reach me at <hospicehounfodjil@gmail.com>.
-## Acknowledgements
-- [Django](https://www.djangoproject.com/)
-- [Django REST Framework](https://www.django-rest-framework.org/)
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Axios](https://axios-http.com/)
-- [Google Generative AI](https://ai.google.dev/)
-
-
