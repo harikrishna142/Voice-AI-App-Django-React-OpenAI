@@ -3,7 +3,7 @@
 Super-Voice-Assistant is a full-stack web application that creates a customizable voice assistant. It combines a Django backend with a React frontend, allowing users to interact with an AI-powered assistant through audio recordings. The application leverages the power of a chosen AI solution (e.g., Gemini or others) to foster engaging conversational experiences.
 
 ## Demo
-![Super-Voice-Assistant Demo](https://github.com/hounfodji/Super-Voice-Assistant/blob/master/z_demo/demo.png)
+
 
 
 
